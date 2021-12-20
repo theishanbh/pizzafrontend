@@ -1,0 +1,18 @@
+.topbar{
+    background-color: red;
+    height: 5rem;
+    display: flex;
+    margin: 0px 6rem;
+    .topbar__left__section{
+        flex: 0.5;
+        display: flex;
+        
+        .topbar__img__container{
+            top: 50%;
+            vertical-align: middle;
+        }
+    }
+    .topbar__right__section{
+        flex: 0.5;
+    }
+}
