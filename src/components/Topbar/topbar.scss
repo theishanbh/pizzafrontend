@@ -1,18 +1,75 @@
+@import "../../globals.scss";
+
 .topbar{
-    background-color: red;
-    height: 5rem;
+    height: 5em;
     display: flex;
-    margin: 0px 6rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
     .topbar__left__section{
-        flex: 0.5;
+        margin-left: 8.5rem;
+        flex: 0.7;
         display: flex;
-        
+        align-items: center;
         .topbar__img__container{
-            top: 50%;
-            vertical-align: middle;
+            margin: auto 0px;
+            .logo{
+                height: 3rem;
+            }
+        }
+        .topbar__left__navbar{
+            ul{
+                display: flex;
+                list-style: none;
+                padding: 0px 1rem;
+                li{
+                    a{
+                        padding: 0.6rem;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bolder;
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: $primary-black;
+                        transition: all 0.3s ease;
+                        &:link {
+                            color: $primary-black;
+                        }
+                        &:hover {
+                            color: $primary-yellow;
+                            text-decoration: underline;
+                            text-underline-offset: 0.5rem;
+                        }
+                        &:active {
+                            color: $primary-yellow;
+                        }
+                    }
+                }
+            }
         }
     }
     .topbar__right__section{
-        flex: 0.5;
+        flex: 0.3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 8.5rem;
+        text-align: center;
+        .topbar__cart{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .total__items{
+                width: 1rem;
+                height: 1rem;
+                padding: 0.25rem 0.25rem 1rem 0.25rem;
+                background-color: $primary-red;
+                color: $primary-white;
+                border-radius: 50%;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
     }
 }

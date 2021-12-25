@@ -1,0 +1,18 @@
+@import '../../globals.scss';
+
+.onlinemenu{
+    .onlinemenu__wrapper{
+        .onlinemenu__heading{
+            .onlinemenu__heading__exclusive{
+                h2{
+                    font-family: $font-lobster;
+                }
+            }
+            .onlinemenu__heading__onlinemenu{
+                h2{
+                    font-family: $font-poppins;
+                }
+            }
+        }
+    }
+}

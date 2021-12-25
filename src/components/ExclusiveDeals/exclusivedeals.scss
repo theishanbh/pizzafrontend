@@ -1,0 +1,67 @@
+@import "../../globals.scss";
+
+.exclusivedeals{
+    background-color: $primary-white;
+    height: calc(100vh);
+    .deal__wrapper{
+        .deal__heading{
+            margin: 0rem 14rem;
+            display: flex;
+            border-radius: 2rem;
+            padding: 1.5rem;
+            .heading__exclusive{
+                color: $primary-red;
+                font-family: 'Roboto',sans-serif;
+                font-size: 3rem;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            .heading__deals{
+                padding-left: 1rem;
+                color: $primary-yellow;
+                font-family: 'Roboto',sans-serif;
+                font-size: 3rem;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+        }
+        .deal__containers{
+            margin: 0px 18rem;
+            display: flex;
+            .deal__container{
+                flex: 1;
+                text-align: center;
+                width: auto;
+                padding: 0rem 0.5rem;
+                .deal__box{
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        img{
+                            height: 23rem;
+                        }
+                        .deal__containers__heading{
+                            width: 100%;
+                            h2{
+                                font-size: 1.25rem;
+                            }
+                        }
+                        &:link{
+                            color: black;
+                        }
+                    }
+                }
+                .deal__info{
+                    width: 100%;
+                    text-align: center;
+                    p{
+                        width: 80%;
+                        margin: auto;
+                        letter-spacing: 1px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

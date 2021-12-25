@@ -1,0 +1,68 @@
+@import "../../globals.scss";
+
+.footer{
+    background-color: $primary-black;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    .footer__wrapper{
+        height: 100%;
+        background-color: $primary-black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer__left{
+            background-color: $primary-black;
+            flex: 1;
+            
+            .text__trademark{
+                background-color: $primary-black;
+                color: white;
+                font-family: -apple-system, 'Segoe UI', 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+        }
+        .footer__middle{
+            background-color: $primary-black;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer__logo__container{
+                background-color: $primary-black;
+                a{
+                    background-color: $primary-black;
+                    img{
+                        background-color: $primary-red;
+                        border-radius: 50%;
+                        margin: 0.3rem;
+                        padding: 0.6rem;
+                        height: 2rem;
+                    }
+                }
+            }
+        }
+        .footer__right{
+            background-color: $primary-black;
+            flex: 1;
+            .footer__right__menu{
+                background-color: $primary-black;
+                margin-right: 2rem;
+                ul{
+                    background-color: $primary-black;
+                    display: flex;
+                    justify-content: flex-end;
+                    list-style: none;
+                    li{
+                        background-color: $primary-black;
+                        color: white;
+                        font-family: 'Roboto',sans-serif;
+                        font-size: 1.1rem;
+                        padding: 0px 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
