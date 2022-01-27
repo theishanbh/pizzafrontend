@@ -1,0 +1,55 @@
+@import '../../globals.scss';
+
+.newsletter{
+    height: 25rem;
+    background-color: $primary-yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .newsletter__container{
+        background-color: $primary-yellow;
+        width: 100%;
+        .newsletter__title{
+            background-color: $primary-yellow;
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+        .newsletter__desc{
+            background-color: $primary-yellow;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .newsletter__input__container{
+            background-color: $primary-white;
+            margin: auto;
+            width: 40%;
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                flex : 8;
+                border: none;
+                padding-left: 1rem;
+                font-size: 1rem;
+                font-weight: 700;
+                height: 100%;
+            }
+            button{
+                background-color: lightgray;
+                flex: 1;
+                border: 3px solid;
+                text-align: center;
+                height: 100%;
+                background-color: teal;
+                color: $primary-white;
+                .send__icon{
+                    background-color: teal;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../globals.scss';
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://i.imgur.com/cP1xOH2.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login__wrapper{
+        padding: 1rem;
+        width: 25%;
+        background-color: white;
+        .login__title{
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        .login__form{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            input{
+                flex: 1;
+                min-width: 40%;
+                margin: 1.25rem 0rem;
+                padding: 0.5rem;
+            }
+            button{
+                width: 40%;
+                border: none;
+                padding: 1rem 1.25rem;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+            }
+            a{
+                margin-top: 1rem;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

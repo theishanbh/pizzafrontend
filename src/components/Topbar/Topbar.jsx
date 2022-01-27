@@ -1,6 +1,5 @@
 import { LocalMallOutlined } from '@mui/icons-material'
 import { Badge } from '@mui/material'
-import { yellow } from '@mui/material/colors'
 import './topbar.scss'
 
 function Topbar() {

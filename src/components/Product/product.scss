@@ -1,0 +1,52 @@
+@import '../../globals.scss';
+
+.product{
+    background-color: $primary-invisible;
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin: 0px 1rem;
+    .product__wrapper{
+        margin: 3rem; 
+        position: relative;
+        text-align: center;
+        .product__img{
+            background-color: rgba(0, 0, 0, 0.1);
+            height: 22rem;
+            overflow: hidden;
+            img{
+                background-color: $primary-invisible;
+                height: 20rem;
+                width: auto;
+                overflow: hidden;
+                object-fit: cover;
+            }
+            transition: all 0.5s ease;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+        .product__info{
+            position: absolute;
+            background-color: $primary-invisible;
+            width: 100%;
+            top: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .product__action__icon{
+                background-color: $primary-white;
+                border-radius: 50%;
+                padding: 0.4rem;
+                margin: 0rem 0.6rem;
+                transition: all 0.5s ease;
+                height: 2.5rem;
+                width: 2.5rem;
+                &:hover{
+                    background-color: #e9f5f5;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+

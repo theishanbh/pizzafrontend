@@ -1,0 +1,11 @@
+@import '../../globals.scss';
+
+.products{
+    margin: 0rem 6rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $primary-invisible;
+    justify-content: center;
+    align-items: center;
+}   

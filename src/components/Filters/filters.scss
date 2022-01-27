@@ -1,0 +1,35 @@
+@import "../../globals.scss";
+
+
+.filters{
+    background-color: $secondary-yellow;
+    .filters__wrapper{
+        padding: 1rem 10rem;
+        display: flex;
+        .filter__title{
+            padding: 1rem;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: $primary-white;
+        }
+        
+        .filter__container{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            .filter{
+                .filter__text{
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    margin-right: 1rem;
+                }
+                .select__filter{
+                    height: 100%;
+                    text-align: center;
+                    padding: 0.25rem;
+                    margin-right: 0.25rem;
+                }
+            }
+        }
+    }
+}

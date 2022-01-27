@@ -1,0 +1,15 @@
+@import "../../globals.scss";
+
+.shop{
+    .shop__wrapper{
+        height: auto;
+        text-align: center;
+        background-color: $primary-red;
+        .shop__heading{
+            padding: 4rem;
+            color: $primary-yellow;
+            font-size: 3.1rem;
+            font-weight: 800;
+        }
+    }
+}

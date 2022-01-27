@@ -27,17 +27,6 @@ function ExclusiveDeals() {
                             </div>
                         )
                     }
-                    {/* <div className="deal__container">
-                        <div className="deal__box">
-                            <a href="">
-                                <img src="" alt="" />
-                                <div className="deal__containers__heading"></div>
-                            </a>
-                        </div>
-                        <div className="deal__info">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, quidem.</p>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>

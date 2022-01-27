@@ -2,17 +2,72 @@
 
 .onlinemenu{
     .onlinemenu__wrapper{
-        .onlinemenu__heading{
-            .onlinemenu__heading__exclusive{
-                h2{
-                    font-family: $font-lobster;
+        position: relative;
+        .menu__wrapper__background{
+            overflow: hidden;
+            img{
+                width: 100vw;
+                overflow: hidden;
+            }
+        }
+        .info__wrapper{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0);
+            width: 100%;
+            .onlinemenu__heading{
+                background-color: rgba(0, 0, 0, 0);
+                line-height: 1;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 2rem;
+                .onlinemenu__heading__exclusive{
+                    background-color: rgba(0, 0, 0, 0);
+                    text-align: center;
+                    h2{
+                        background-color: rgba(0, 0, 0, 0);
+                        font-family: $font-lobster;
+                        font-size: 3rem;
+                        color: $primary-red;
+                    }
+                }
+                .onlinemenu__heading__onlinemenu{
+                    background-color: rgba(0, 0, 0, 0);
+                    text-align: center;
+                    h2{
+                        background-color: rgba(0, 0, 0, 0);
+                        font-family: $font-poppins;
+                        font-size: 4rem;
+                    }
                 }
             }
-            .onlinemenu__heading__onlinemenu{
-                h2{
-                    font-family: $font-poppins;
+            .menu__tabs{
+                background-color: rgba(0, 0, 0, 0);
+                margin: 1.5rem 0rem;
+                .menu__tabs__navbar{
+                    background-color: rgba(0, 0, 0, 0);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    button{
+                        font-size: 1.7rem;
+                        color: white;
+                        background-color: $primary-black;
+                        font-family: $font-poppins;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        padding: 10px 1.25rem;
+                        margin: 0rem 1.5rem;
+                        border-radius: 1rem;
+                        &:active{
+                            background-color: $primary-red;
+                        }
+                    }
                 }
             }
+            
         }
     }
 }
