@@ -1,7 +1,6 @@
 import Cart from './pages/Cart/Cart';
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
-import Product from './pages/Product/Product';
 import Register from './pages/Register/Register';
 import Shop from './pages/Shop/Shop';
 import {
@@ -10,6 +9,7 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import ProductPage from './pages/ProductPage/ProductPage';
 
 function App() {
   const user = true
@@ -23,7 +23,7 @@ function App() {
           <Shop></Shop>
         </Route>
         <Route path="/product/:id">
-          <Product></Product>
+          <ProductPage></ProductPage>
         </Route>
         <Route path="/cart">
           <Cart></Cart>

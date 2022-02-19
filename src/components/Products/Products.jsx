@@ -7,11 +7,13 @@ import { products } from '../../data/pizzas';
 function Products() {
   return (
     <div className="products">
+      <div className="products__wrapper">
       {
         products.map((item) => (
           <Product item={item} key={item.id}></Product>
         ))
       }
+      </div>
     </div>
   );
 }

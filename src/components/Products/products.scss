@@ -1,11 +1,15 @@
 @import '../../globals.scss';
 
 .products{
-    margin: 0rem 6rem;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: $primary-invisible;
-    justify-content: center;
-    align-items: center;
+    background-color: hsla(0, 0%, 92%, 0.945);
+    padding-top: 3rem;
+    .products__wrapper{
+        margin: 0rem 6rem;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;    
+        justify-content: center;
+        align-items: center;
+    }
+
 }   
